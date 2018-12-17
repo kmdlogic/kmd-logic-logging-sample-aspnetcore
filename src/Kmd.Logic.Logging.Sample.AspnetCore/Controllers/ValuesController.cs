@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 namespace Kmd.Logic.Logging.Sample.AspnetCore.Controllers
 {
@@ -14,6 +15,7 @@ namespace Kmd.Logic.Logging.Sample.AspnetCore.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
+            Log.Information("Hello from inside the api/values controller");
             return new string[] { "value1", "value2" };
         }
 
