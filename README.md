@@ -8,6 +8,6 @@ If you are running from a console/terminal, you should see output similar to:
 
 ![Sample Console Output](./assets/console-sample-logs.png)
 
-If you run `./seq.sh` too, you can navigate to `http://localhost:5341/` and you should see output similar to:
+If you [install a copy of Seq](https://docs.getseq.net/docs/getting-started#section-installing-the-seq-server) (or run [`./seq.sh`](./seq.sh) if you have bash + docker), you can navigate to `http://localhost:5341/` and you should see output similar to:
 
 ![Sample Seq Output](./assets/seq-sample-logs.png)
